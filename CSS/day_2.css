@@ -1,0 +1,14 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url("https://images.unsplash.com/photo-1654964150106-35d338e979cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name
+{
+    font-size: 50px;
+}
+#hi
+{
+    font-size: 80px;
+}
