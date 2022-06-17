@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*
+{
+    margin: 0;
+    /* background-color: #f7f7f7; */
+}
+#main_container
+{
+    margin: 0vw 8vw;
+}
+#logo 
+{
+  width: 100px;
+}
+.navbar 
+{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  align-items: center;
+}
+.navbar_elements
+{
+    margin-right: 3vw;
+}
+a
+{
+       /* padding: 0vw 1vw; */
+       text-decoration: none;
+       color: #808080a6;
+       font-family: "Barlow", sans-serif;
+       font-weight: 600;
+       /* margin: 0vw 1vw; */
+       padding: 0.5vw 0.5vw;
+}
+a:hover
+{
+    color: black;
+    transition: all 0.5s;
+}
+.img_container
+{
+    margin: 3vh 0vh;
+}
+.img_banner
+{
+    width: 80vw;
+    border-radius: 20px;
+}
+.content
+{
+
+}
+.collection
+{
+    display: flex;
+    margin-top: 50vh;
+}
+.sub_collection
+{
+    padding: 0vw 2vw;
+}
+.collection_img
+{
+    width: 235px;
+    margin-bottom: 66px;
+}
+.collection_heading
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Fraunces", sans-serif;
+    margin-bottom: 34px;
+    color: #000000bd;
+}
+.collection_sub_heading
+{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color: dimgray;
+}
+.banner
+{
+    background-color: black;
+    /* color: white; */
+    height: 80vh;
+    width: 82.7vw;
+    margin-top: 40vh;
+}
+.footer
+{
+    background-color: #000000fa;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    justify-content: space-evenly;
+    height: 12vh;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: rgb(170, 218, 250);
+    font-family: 'Baloo 2', cursive;
+}
+.navbar_outer
+{
+    height: 5vh; 
+    display: flex;
+    justify-content: end;
+    align-items: center;   
+}
+#myname
+{
+    position: absolute;
+    left: 7px;
+    font-size: 25px;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+    padding: 0vh 1vw;
+    font-size: 20px;
+}
+.container
+{
+    height: 88vh;
+    width: 100vw;
+}
+#profile_img
+{
+    width: 14vw;
+}
+.xyz
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+}
+.part1
+{
+    margin-top: -10vh;
+}
+.part2
+{
+    width: 45vw;
+    margin-left: 2vw;
+}
+.mycircle
+{
+    display: flex;
+    justify-content: space-between;
+}
+.circle
+{
+    height: 25vh;
+    width: 12vw;
+    border-radius: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 19px 1px black;
+}
+.circle1
+{
+    background-color: #2196f3;
+}
+
+.circle2
+{
+    background-color: #f7964a;
+    
+}
+
+.circle3
+{
+    background-color: #21f337;
+    
+}
+.circle_p
+{
+    font-size: 1.5vw;;
+}
+#part2_p1
+{
+    margin-bottom: 3vh;
+    font-size: 2vw;
+}
+#part2_p2
+{
+    margin-bottom: 4vh;
+}
+.svg
+{
+    width: 3vw;
+}
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    background-color: lightseagreen;
+    font-size: 22px;
+}
+#svg_heart
+{
+    fill: red;
+    width: 21px;
+}
